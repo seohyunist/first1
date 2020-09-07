@@ -3,10 +3,20 @@
 <head>
   <title>web_practice</title>
   <meta charset="utf-8">
+  <script src="colors.js"></script>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1><a href="index.html">Unsplash</a></h1>
+  <h1><a href="index.html">Unsplash</a>
+    <br>
+    <input class="button" type="button" value="night"
+      style="position: absolute; left: 5px;
+      width:60pt;height:25pt;" onclick="
+      nightDayHandler(this);
+
+    ">
+  </h1>
+
   <div id="grid">
     <ol>
       <li><a href="1.html">Main</a></li>
